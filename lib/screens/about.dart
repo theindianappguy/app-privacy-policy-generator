@@ -34,7 +34,10 @@ class About extends StatelessWidget {
                         children: <Widget>[
                           Text('''App Privacy Policy Generator is a simple Flutter App that can be used to generate generic Privacy Policy and Terms & Conditions for your apps Made by Sanskar Tiwari.
                           \nIf you would like to request for more options of choosing privacy policy by third party services, please open an request issue on github.. Make sure to include the link to privacy policy you wish to be added.''',style: TextStyle(fontSize: 14, color: Colors.black54),),
+                          SizedBox(height: 16,),
                           Row(
+                            mainAxisSize: MainAxisSize.max,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
                               Text('Made with', style: TextStyle(fontSize: 16),),
                               SizedBox(

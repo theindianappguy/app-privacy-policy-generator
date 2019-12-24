@@ -35,7 +35,10 @@ class Disclaimer extends StatelessWidget {
                         children: <Widget>[
                           Text('''This template for privacy policy and terms & conditions is provided on "AS IS" basis, without warranties or conditions of any kind, either expressed or implied. It is intended for you as an inspirational document and you may use it when compiling your own privacy policy. The developer of App Privacy Policy Generator does not take any responsibility for the legal consequences associated with the use of this privacy policy or terms & conditions, and I urge you to seek local legal advice ensuring compliance with all rules applicable for the users of your application. The developer of App Privacy Policy Generator can in no way be found liable for any direct or indirect damage or loss suffered by you due to the use of this document.
 ''',style: TextStyle(fontSize: 14, color: Colors.black54),),
+                          SizedBox(height: 16,),
                           Row(
+                            mainAxisSize: MainAxisSize.max,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: <Widget>[
                               Text('Made with', style: TextStyle(fontSize: 16),),
                               SizedBox(

@@ -226,7 +226,10 @@ class _EditState extends State<Edit> {
                             style: TextStyle(color: Colors.white),
                           ),
                         ),
+                        SizedBox(height: 16,),
                         Row(
+                          mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: <Widget>[
                             Text('Made with', style: TextStyle(fontSize: 16),),
                             SizedBox(
