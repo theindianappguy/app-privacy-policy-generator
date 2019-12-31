@@ -11,6 +11,9 @@ A simple Flutter app to generate a generic privacy policy & terms and condition 
 - Any Operating System (ie. MacOS X, Linux, Windows)
 - Android Studio/Visual Studio Code
 
+## Credits
+- Template credits [PRIVACY POLICY FOR APP](https://medium.com/@ali.muzaffar/did-you-get-one-of-these-google-play-developer-policy-violation-emails-6c529ceb082d#.f10upj3fy)
+
 ## Join Us
 * [Join Our Facebook Group](https://www.facebook.com/groups/519517995532897/) - I share a lot of value in it
 
